@@ -1,8 +1,6 @@
 # Technical Report: Comparative Study of Traditional Machine Learning and Transformer Models for Spam Classification
 
-**Author:** [Your Name]  
-**Internship:** [Organization / Internship Program]  
-**Date:** [Submission Date]
+
 
 ## 1. Abstract
 This project compares two classical text-classification models—Logistic Regression and Multinomial Naive Bayes—with a fine-tuned DistilBERT transformer for classifying emails as spam or ham. Classical models use TF-IDF features, while DistilBERT learns contextual representations from tokenized text. All models are evaluated on the same held-out test split using accuracy, spam precision, spam recall, spam F1-score, confusion matrices, and measured training time.
